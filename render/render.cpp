@@ -153,17 +153,13 @@ void Render::InternalMenu::RenderImGuiUI(EventBus* bus)
 
     if (ImGui::BeginChild(1))
     {
-		//
-		// 
-		// Menu variables - this whole logic will change, i'll be controlling this through events
 
 		static bool mark_check_1 = false;
 	
 		static bool mark_check_2 = false;
 		static bool mark_check_3 = false;
 		static bool mark_check_4 = false;
-		/*static bool mark_check_5 = false;
-		static bool mark_check_6 = false;*/
+	
 	
 		ImGui::TextLink("\nESC to enable cursor\n");
 		
